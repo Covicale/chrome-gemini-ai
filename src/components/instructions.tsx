@@ -25,7 +25,8 @@ export default function Instructions() {
           Enable{" "}
           <span className="italic font-semibold">
             chrome://flags/#optimization-guide-on-device-model
-          </span>
+          </span>{" "}
+          and set with the value &quot;Enabled BypassPerfRequirement&quot;
         </li>
         <li>
           Install Gemini Nano in
