@@ -17,30 +17,20 @@ export default function Instructions() {
         </li>
         <li>
           Enable{" "}
-          <a
-            className="underline"
-            target="_blank"
-            href="chrome://flags/#prompt-api-for-gemini-nano"
-          >
-            Prompt API for Gemini Nano
-          </a>
+          <span className="italic font-semibold">
+            chrome://flags/#prompt-api-for-gemini-nano
+          </span>
         </li>
         <li>
           Enable{" "}
-          <a
-            className="underline"
-            target="_blank"
-            href="chrome://flags/#optimization-guide-on-device-model"
-          >
-            Enables optimization guide on device
-          </a>
+          <span className="italic font-semibold">
+            chrome://flags/#optimization-guide-on-device-model
+          </span>
         </li>
         <li>
-          Install Gemini Nano{" "}
-          <a className="underline" target="_blank" href="chrome://components/">
-            here
-          </a>
-          , searching for &quot;Optimization Guide On Device Model&quot;
+          Install Gemini Nano in
+          <span className="italic font-semibold"> chrome://components </span>
+          searching for &quot;Optimization Guide On Device Model&quot;
         </li>
         <li>Restart chrome.</li>
       </ol>

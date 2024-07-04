@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         className={`min-h-screen bg-background font-sans antialiased ${inter.className}`}
       >
         {children}
+        <Footer />
       </body>
     </html>
   );
