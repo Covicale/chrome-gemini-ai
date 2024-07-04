@@ -1,5 +1,4 @@
 "use client";
-
 import Chat from "@/components/chat";
 import InitAI from "@/components/init-ai";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -13,6 +12,7 @@ export default function Home() {
     async ({ systemPrompt, topK, temperature }: any) => {
       const isAvailable = await checkAiAvailable();
       if (!isAvailable) return;
+      // @ts-ignore
       window.ai
         .createTextSession({ systemPrompt, topK, temperature })
         .then((session: any) => {
