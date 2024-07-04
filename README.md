@@ -1,6 +1,6 @@
 # Chrome Gemini AI
 
-[![Demo Preview](https://img.youtube.com/vi/qhKf214KGA0/0.jpg)](https://www.youtube.com/watch?v=qhKf214KGA0)]
+![Demo Preview](assets/demo.gif)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/covicale/chrome-gemini-ai)](https://img.shields.io/github/last-commit/covicale/chrome-gemini-ai)
 [![GitHub issues](https://img.shields.io/github/issues-raw/covicale/chrome-gemini-ai)](https://img.shields.io/github/issues-raw/covicale/chrome-gemini-ai)
@@ -11,7 +11,7 @@ Chrome Gemini AI is a very simple project made with Next.JS in order to experime
 
 The project allows the user to chat with the Gemini AI model and tweak the model's parameters to see how it affects the model's responses.
 
-A demo of the project can be found [here](https://chrome-gemini-ai.vercel.app/).
+A demo of the project can be found [here](https://chrome-gemini-ai.vercel.app/). Also, a video demo can be found [here](https://www.youtube.com/watch?v=qhKf214KGA0).
 
 # Table of Contents
 
@@ -32,11 +32,11 @@ To be able to run the project, you need to have the following things:
 
 After you have all the requirements, you can run the project and it should appear something like this:
 
-![AI is Available](images/ai-available.png)
+![AI is Available](assets/ai-available.png)
 
 Otherwise, if you don't have the requirements, it should appear something like this:
 
-![AI is Not Available](images/ai-not-available.png)
+![AI is Not Available](assets/ai-not-available.png)
 
 # Deploy
 
