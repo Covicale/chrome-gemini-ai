@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ChromeGPT",
-  description: "ChatGPT Clone with Chrome Gemini's AI",
+  description: "ChatGPT Clone with Chrome Gemini's AI Integration",
 };
 
 export default function RootLayout({
