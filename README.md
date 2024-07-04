@@ -20,6 +20,7 @@ A demo of the project can be found [here](https://chrome-gemini-ai.vercel.app/).
 - [Requirements](#requirements)
 - [Deploy](#deploy)
 - [References](#references)
+- [License](#license)
 
 # Requirements
 
@@ -63,3 +64,7 @@ $ npm run dev
 
 - [Next.js](https://nextjs.org/)
 - [Google's AI API](https://github.com/explainers-by-googlers/prompt-api)
+
+# License
+
+[MIT](LICENSE)
